@@ -1,3 +1,5 @@
+package strings;
+
 public class ReverseAString {
 
     public static String reverseTheGivenString(String str) {
