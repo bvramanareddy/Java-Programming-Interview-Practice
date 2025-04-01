@@ -1,1 +1,1 @@
-"C:\Users\sanje\IdeaProjects\Java_Programs_For_SDET"
+A collection of Java programming questions and solutions to help you prepare for technical interviews
