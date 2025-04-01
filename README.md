@@ -1,1 +1,1 @@
-"C:\Users\sanje\IdeaProjects\Java_Programs_For_SDET"
+Practice Java coding questions for technical interviews with detailed solutions.
