@@ -25,11 +25,29 @@ public class IsPalindrome {
             System.out.println("It is not a Palindrome-> "+ s);
         }
     }
+    public static boolean isPalindromeUsingTwoPointerApproach(String str){
+        char[] letters  =  str.toCharArray();
+        int left = 0;
+        int right= letters.length-1;
+        while (left<right){
+            if (letters[left]!=letters[right]){
+                return false;
+            } else {
+                left++;
+                right--;
+            }
+        }
+        return true;
+    }
 
     public static void main(String[] args) {
         String s= "madam";
         String s1= "RamaR";
+        String s2= "Sanjee";
         isPalindromeUsingStringBuilder(s);
         isPalindromeIterate(s1);
+        System.out.println("Given String ["+ s + "] IsPalindrome: "+isPalindromeUsingTwoPointerApproach(s));
+        System.out.println("Given String ["+ s2 + "] IsPalindrome: "+ isPalindromeUsingTwoPointerApproach(s2));
+
     }
 }
